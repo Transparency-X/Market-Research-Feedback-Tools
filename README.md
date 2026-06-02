@@ -1,114 +1,135 @@
-# Market Research - Feedback Tools
+# Market Research Report: Standalone Single-Page Web App Feedback Tools
 
-## 📊 Market Research Report
-
-For a detailed analysis of the global market for standalone single-page web app feedback tools, including market size, competitive landscape, and revenue projections, see our **[Market Sizing Research Report](https://github.com/your-org/feedback-tool/blob/main/docs/Market-Research-Report.md)**.
+> **A comprehensive market sizing and competitive analysis of standalone feedback tools for single-page web apps.**
 
 ---
 
-## ✨ Overview
+## 📊 Overview
 
-Feedback Tool is a minimalist, easy-to-integrate solution for collecting user feedback directly on your web app or website. Designed for simplicity and efficiency, it helps you gather actionable insights from your users without the complexity of enterprise-level suites.
+This repository hosts the **Global Market Sizing and Competitive Analysis Report** for standalone single-page web app feedback tools (e.g., Feedback Fish, Hotjar, Pendo, Typeform). The report provides a data-driven analysis of market size, growth projections, competitive landscape, and revenue models for tools designed to capture user feedback directly on websites and web applications.
 
----
-
-## 🚀 Features
-
-### Core Features
-- **One-click installation**: Add to your site with a single line of JavaScript.
-- **Customizable widget**: Adjust colors, position, and triggers to fit your design.
-- **Real-time notifications**: Get email or Slack alerts for new feedback.
-- **Dashboard**: View, filter, and export feedback from a centralized interface.
-- **Multi-language support**: Collect feedback in any language.
-- **Mobile-responsive**: Works seamlessly on all devices.
-
-### Advanced Features
-- **Screenshot capture**: Users can attach screenshots to their feedback.
-- **Emoji reactions**: Quick sentiment feedback (e.g., 👍, 👎, 💡).
-- **Rating scales**: 1–5 or 1–10 rating options.
-- **Custom fields**: Add dropdowns, checkboxes, or text areas for structured feedback.
-- **API access**: Integrate with your existing tools (e.g., CRM, project management).
-- **Privacy-compliant**: GDPR and CCPA-ready with data anonymization options.
+### Key Insights
+- **Global Market Size (2025):** ~$1.99B (Customer Feedback Software)
+- **Projected Growth (2035):** ~$6.89B (CAGR: 13.2%)
+- **Dominant Regions:** North America (35%), Europe (23.7%), Asia-Pacific (fastest-growing)
+- **Top Use Cases:** B2B SaaS, e-commerce, UX research, customer support
 
 ---
 
-## 🗺️ Roadmap
+## 📂 Project Structure
 
-Here’s what we’re working on for future releases:
-
-| Priority | Feature | Description | Status | ETA |
-|----------|---------|-------------|--------|-----|
-| High | **AI-powered feedback analysis** | Automatically categorize and summarize feedback using NLP. | In Development | Q3 2026 |
-| High | **User segmentation** | Filter feedback by user roles, locations, or custom tags. | Planned | Q4 2026 |
-| Medium | **Public API v2** | Expanded endpoints for deeper integration with third-party tools. | In Development | Q3 2026 |
-| Medium | **Dark mode** | Full dark mode support for the widget and dashboard. | Planned | Q3 2026 |
-| Medium | **Multi-team collaboration** | Assign feedback to team members and track resolution status. | Planned | Q4 2026 |
-| Low | **Voice feedback** | Allow users to submit voice notes directly from the widget. | Research | 2027 |
-| Low | **Offline mode** | Queue feedback submissions when users are offline. | Research | 2027 |
-
----
-
-## 📜 Changelog
-
-| Version | Date | Description | Author |
-|---------|------|-------------|--------|
-| **v1.0.0** | 2026-06-02 | Initial release: Core widget, email notifications, and basic dashboard. | @declan |
-| **v1.1.0** | 2026-05-15 | Added screenshot capture and emoji reactions. | @declan |
-| **v1.2.0** | 2026-04-20 | Introduced custom fields and multi-language support. | @declan |
-| **v1.2.1** | 2026-04-10 | Bug fixes: Widget positioning on mobile devices. | @declan |
-| **v1.3.0** | 2026-03-05 | Added rating scales and API access. | @declan |
-| **v1.3.1** | 2026-02-28 | Improved dashboard filtering and export options. | @declan |
+```
+market-research-feedback-tools/
+├── README.md                 # This file
+├── report/
+│   ├── Market-Research-Report.md  # Full report (Markdown)
+│   ├── Market-Research-Report.pdf # Full report (PDF)
+│   └── data/                  # Raw data, charts, and references
+│       ├── market-size.csv
+│       ├── competitive-analysis.csv
+│       └── references.md
+├── LICENSE                   # MIT License
+└── .gitignore
+```
 
 ---
 
-## 📥 Installation
+## 📄 Report Contents
 
-### Quick Start
-1. **Include the script** in your HTML `<head>`:
-   ```html
-   <script src="https://cdn.feedbacktool.com/widget.js" defer></script>
+### 1. **Market Definition & Scope**
+- Definition of standalone single-page web app feedback tools.
+- Inclusion/exclusion criteria (standalone vs. integrated solutions).
+- Target segments: B2B and B2C.
+
+### 2. **Global Market Size & Growth**
+- Historical and projected market size (2025–2035).
+- Regional breakdown (North America, Europe, Asia-Pacific, etc.).
+- Growth drivers, restraints, and opportunities.
+
+### 3. **Competitive Landscape**
+- Market share analysis of leading tools (Hotjar, Pendo, Typeform, Canny, Sprig, Zonka Feedback, etc.).
+- Feature comparison table.
+- Revenue models (subscription, freemium, enterprise).
+
+### 4. **Revenue Analysis**
+- Estimated revenues for top players.
+- Average Revenue Per User (ARPU) benchmarks.
+- Pricing strategies and trends.
+
+### 5. **Regional Insights**
+- Market share by region.
+- Localized trends and adoption drivers.
+
+### 6. **Future Outlook**
+- Emerging trends (AI, IoT integration, real-time analytics).
+- Predictions for market consolidation and innovation.
+
+---
+
+## 🚀 GitHub Release: v1.0.0
+
+### **Release Notes**
+**Version:** `v1.0.0`  
+**Date:** 2026-06-02  
+**Status:** 🟢 Stable  
+
+### What’s Included
+✅ **Full Market Research Report** (Markdown + PDF)
+
+✅ **Raw data files** (CSV format for market size, competitive analysis)
+
+✅ **References and sources** (hyperlinked for verification)
+
+✅ **Visualizations** (charts, graphs, and tables in PNG/SVG)
+
+### Downloads
+- **[Full Report (PDF)](https://github.com/your-org/market-research-feedback-tools/releases/download/v1.0.0/Market-Research-Report-Feedback-Tools-v1.0.0.pdf)**
+- **[Full Report (Markdown)](https://github.com/your-org/market-research-feedback-tools/releases/download/v1.0.0/Market-Research-Report-Feedback-Tools-v1.0.0.md)**
+- **[Data Files (ZIP)](https://github.com/your-org/market-research-feedback-tools/releases/download/v1.0.0/data-v1.0.0.zip)**
+
+---
+
+## 📥 How to Use
+
+### Accessing the Report
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-org/market-research-feedback-tools.git
+   cd market-research-feedback-tools
    ```
-2. **Initialize the widget** with your API key:
-   ```javascript
-   FeedbackTool.init({ apiKey: "YOUR_API_KEY" });
-   ```
-3. **Customize** (optional):
-   ```javascript
-   FeedbackTool.init({
-     apiKey: "YOUR_API_KEY",
-     position: "bottom-right",
-     primaryColor: "#4F46E5",
-     trigger: "click", // or "hover"
-   });
-   ```
+2. **Open the report:**
+   - Navigate to `/report/Market-Research-Report.md` for the Markdown version.
+   - Download the PDF for a formatted, printable version.
 
-### Advanced Setup
-For self-hosting or additional configuration, see our [documentation](https://docs.feedbacktool.com).
+### Using the Data
+- **CSV Files:** Import into Excel, Google Sheets, or BI tools for custom analysis.
+- **Visualizations:** Use the provided PNG/SVG files in presentations or documentation.
+- **References:** Verify sources via the `references.md` file.
 
 ---
 
 ## 🤝 Contributing
 
-We welcome contributions! Here’s how you can help:
-- **Report bugs**: Open an issue with a clear description and steps to reproduce.
-- **Suggest features**: Share your ideas in the [Discussions](https://github.com/your-org/feedback-tool/discussions) tab.
-- **Submit PRs**: Fork the repo and submit a pull request for review.
+We welcome contributions to improve the report’s accuracy and depth:
+- **Report issues:** Open a [GitHub Issue](https://github.com/your-org/market-research-feedback-tools/issues) for errors or omissions.
+- **Suggest updates:** Submit a pull request with new data or corrections.
+- **Request features:** Propose additional sections or analyses in [Discussions](https://github.com/your-org/market-research-feedback-tools/discussions).
 
 ---
 
 ## 📄 License
 
-This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
+This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details. You are free to use, share, and adapt the report for commercial or non-commercial purposes.
 
 ---
 
 ## 📧 Contact
 
-- **Website**: [feedbacktool.com](https://feedbacktool.com)
-- **Email**: support@feedbacktool.com
-- **Twitter**: [@FeedbackTool](https://twitter.com/FeedbackTool)
-- **GitHub**: [github.com/your-org/feedback-tool](https://github.com/your-org/feedback-tool)
+- **Maintainer:** [@declan](https://github.com/declan)
+- **Organization:** [Transparency-X](https://github.com/your-org)
+- **Email:** research@transparency-x.com
+- **Website:** [transparency-x.com](https://transparency-x.com)
 
 ---
 
-*Built with ❤️ by [Transparency-X](https://transparency-x.com)*
+*© 2026 Transparency-X. All rights reserved.*
